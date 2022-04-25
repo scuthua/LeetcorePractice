@@ -6,10 +6,10 @@ import java.util.HashMap;
 
 /**
  * Created by daviddai on 2021/1/21
- * https://leetcode.com/problems/two-sum/solution/
+ * https://leetcode.com/problems/two-sum/
  *
  * 总结：
- * 1.以nums = [3,2,4], target = 6为例。当我看到4后，我会想列表里有没有2，这时候如果我不记得了，我会在列表里一个个找，但如果我还对之前的结果有影响，我就能直接找到2.hash在这里的作用好像就是这个作用。将脑子里想的“2”这个东西变成一个string，让电脑也能马上找到这个。
+ * 1.以nums = [3,2,4], target = 6为例。当我看到4后，我会想列表里有没有2，这时候如果我不记得了，我会在列表里一个个找，但如果我还对之前的结果有印象，我就能直接找到2.hash在这里的作用好像就是这个作用。将脑子里想的“2”这个东西变成一个string，让电脑也能马上找到这个。
  * 2.当需要快速从一坨东西里找到一个东西的时候，可以考虑下hash
  */
 public class TwoSum {
